@@ -7,32 +7,38 @@ A working demo of Mediogram's billing service for clinical trials. Every sponsor
 ## How it works
 
 1. **The site doctor** marks what was done at each patient visit. Doctors never see any amounts.
-2. **The sponsor** sees the visits with prices and approves them, or returns them with a comment. The admin and the doctor see that comment, translated automatically.
-3. **Mediogram** gets the approved visits gathered into a weekly invoice draft and issues it with one button, in the existing Excel invoice template.
+2. **Mediogram (admin)** collects the completed work and sends the sponsor a **proforma invoice**, signed with the admin's password.
+3. **The sponsor's clinical reviewer** checks the clinical lines only (visits and procedures, no amounts and no CRO services) and confirms or disputes each line.
+4. **The sponsor's accountant** checks the numbers against what the clinical reviewer confirmed, confirms the CRO services, and sends the proforma back, signed.
+5. **Mediogram** sees each disputed line with its reason. Everything confirmed becomes the **final invoice** with one button, in the existing Excel template. Disputed lines wait for the next round.
 
-Admins and doctors work in Russian. The sponsor and the invoices are in English.
+The admin and doctor screens can be switched between **Russian and English** (top right, or in Settings). The sponsor side and the invoices are in English.
 
-## What's new
+## Also in this version
 
-- **Several sponsors**: the same Mediogram services for everyone, each sponsor with its own billing details and its own prices.
-- **Approval line by line**: the sponsor ticks Screening now and Baseline later, or holds back one item. Confirmed lines are invoiced right away; the rest go on a later invoice.
-- **Comments under any line**, translated between Russian and English.
-- **Evidence files** attached to hourly services.
-- **Invoice builder**: shape confirmed work into invoices the way the sponsor asks — one invoice, each under any amount, per patient or per month — then drag visits (or single lines) between invoices or leave them for later.
-- **Doctor folders** per sponsor and study.
-- **Clindex check**: upload the Clindex visit report (CSV) to see visits missing in billing, missing in Clindex, or with different dates.
+- **Three sponsor roles**: the Vice President sees everything on the sponsor side (read-only), the clinical reviewer confirms clinical work, and the accountant confirms amounts and CRO services.
+- **Electronic signatures**: sending, reviewing and finalising a proforma asks for your password again, and the audit log marks those entries as signed.
+- **Queries**: any comment can be raised as a query that stays open until someone resolves it.
+- **My tasks**: each account sees what is waiting for it.
+- **Subject status** per patient: screening, enrolled, screen failure, withdrawn or completed.
+- Several sponsors with their own prices, line-by-line confirmation, comments on any line, evidence files on hourly services, and the invoice builder (split by amount, patient or month).
 
 ## Try it
 
-Open the live demo and pick an account on the sign-in screen:
+Open the live demo and sign in with any of these accounts:
 
-| Account | Role |
-| --- | --- |
-| Anna Petrova | Mediogram admin: budgets, patients, invoices, payments, audit log |
-| Study coordinator · CHC | Site doctor: patients in a folder per sponsor, visit checklists, no prices |
-| Clinical Finance · Northwind | Sponsor (Northwind Cardio): tick visits and single lines, return lines with a reason |
-| Clinical Operations · Helix Valve | Second sponsor (Helix Valve) with its own study and prices |
+| Role | Email | Password |
+| --- | --- | --- |
+| Mediogram admin | anna@mediogram.example | Demo-Admin-1 |
+| Mediogram admin | mark@mediogram.example | Demo-Admin-2 |
+| Mediogram admin (billing desk) | billing@mediogram.example | Demo-Admin-3 |
+| Site doctor: study coordinator | coordinator@chc.example | Demo-Site-1 |
+| Site doctor: principal investigator | pi@chc.example | Demo-Site-2 |
+| Sponsor: Vice President (Northwind) | vp@northwind-cardio.example | Demo-VP-1 |
+| Sponsor: clinical reviewer (Northwind) | clinical@northwind-cardio.example | Demo-Clinical-1 |
+| Sponsor: accountant (Northwind) | ap@northwind-cardio.example | Demo-Finance-1 |
+| Sponsor: clinical reviewer (Helix Valve) | clinical@helix-valve.example | Demo-Clinical-2 |
+
+A good walk-through: sign in as **Anna** and send a proforma from **Invoices**. Then sign in as the **Northwind clinical reviewer** and confirm the clinical lines, then as the **Northwind accountant** to confirm the amounts and dispute one line. Finally, go back to **Anna** and issue the final invoice.
 
 Everything you do is saved only in your own browser. To start over, use **Settings → Reset demo data**.
-
-In this demo, nothing is emailed. New comments are not translated, because the translation service is connected only in the full version.
