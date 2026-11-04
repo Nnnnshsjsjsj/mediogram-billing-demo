@@ -25,19 +25,19 @@ The admin and doctor screens can be switched between **Russian and English** (to
 
 ## Try it
 
-Open the live demo and sign in with any of these accounts:
+Open the live demo. The sign-in screen lists every demo account: **click one to sign in**. You can also type a login and password:
 
-| Role | Email | Password |
+| Role | Login | Password |
 | --- | --- | --- |
-| Mediogram admin | anna@mediogram.example | Demo-Admin-1 |
-| Mediogram admin | mark@mediogram.example | Demo-Admin-2 |
-| Mediogram admin (billing desk) | billing@mediogram.example | Demo-Admin-3 |
-| Site doctor: study coordinator | coordinator@chc.example | Demo-Site-1 |
-| Site doctor: principal investigator | pi@chc.example | Demo-Site-2 |
-| Sponsor: Vice President (Northwind) | vp@northwind-cardio.example | Demo-VP-1 |
-| Sponsor: clinical reviewer (Northwind) | clinical@northwind-cardio.example | Demo-Clinical-1 |
-| Sponsor: accountant (Northwind) | ap@northwind-cardio.example | Demo-Finance-1 |
-| Sponsor: clinical reviewer (Helix Valve) | clinical@helix-valve.example | Demo-Clinical-2 |
+| Mediogram admin | anna | Demo-Admin-1 |
+| Mediogram admin | mark | Demo-Admin-2 |
+| Mediogram admin (billing desk) | billing | Demo-Admin-3 |
+| Site doctor: study coordinator | doctor1 | Demo-Site-1 |
+| Site doctor: principal investigator | doctor2 | Demo-Site-2 |
+| Sponsor: Vice President (Northwind) | northwind.vp | Demo-VP-1 |
+| Sponsor: clinical reviewer (Northwind) | northwind.clinical | Demo-Clinical-1 |
+| Sponsor: accountant (Northwind) | northwind.accountant | Demo-Finance-1 |
+| Sponsor: clinical reviewer (Helix Valve) | helix.clinical | Demo-Clinical-2 |
 
 A good walk-through: sign in as **Anna** and send a proforma from **Invoices**. Then sign in as the **Northwind clinical reviewer** and confirm the clinical lines, then as the **Northwind accountant** to confirm the amounts and dispute one line. Finally, go back to **Anna** and issue the final invoice.
 
