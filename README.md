@@ -16,7 +16,7 @@ The admin and doctor screens can be switched between **Russian and English** (to
 
 ## Also in this version
 
-- **Three sponsor roles**: the Vice President sees everything on the sponsor side (read-only), the clinical reviewer confirms clinical work, and the accountant confirms amounts and CRO services.
+- **Three sponsor roles**: the sponsor's admin (Admin S.) sees everything on the sponsor side (read-only), the clinical reviewer confirms clinical work, and the accountant confirms amounts and CRO services.
 - **Electronic signatures**: sending, reviewing and finalising a proforma asks for your password again, and the audit log marks those entries as signed.
 - **Queries**: any comment can be raised as a query that stays open until someone resolves it.
 - **My tasks**: each account sees what is waiting for it.
@@ -34,7 +34,7 @@ Open the live demo. The sign-in screen lists every demo account: **click one to 
 | Mediogram admin (billing desk) | billing | Demo-Admin-3 |
 | Site doctor: study coordinator | doctor1 | Demo-Site-1 |
 | Site doctor: principal investigator | doctor2 | Demo-Site-2 |
-| Sponsor: Vice President (Northwind) | northwind.vp | Demo-VP-1 |
+| Sponsor: Admin S. 1 (Northwind) | admin.s1 | Demo-AdminS-1 |
 | Sponsor: clinical reviewer (Northwind) | northwind.clinical | Demo-Clinical-1 |
 | Sponsor: accountant (Northwind) | northwind.accountant | Demo-Finance-1 |
 | Sponsor: clinical reviewer (Helix Valve) | helix.clinical | Demo-Clinical-2 |
