@@ -41,4 +41,6 @@ Open the live demo. The sign-in screen lists every demo account: **click one to 
 
 A good walk-through: sign in as **Anna** and send a proforma from **Invoices**. Then sign in as the **Northwind clinical reviewer** and confirm the clinical lines, then as the **Northwind accountant** to confirm the amounts and dispute one line. Finally, go back to **Anna** and issue the final invoice.
 
+In the real version, sponsor decisions reach Mediogram **3 hours** after they are saved, so the sponsor can undo a mistake. The demo has a **Skip the 3-hour wait** button so the whole chain can be shown in one sitting.
+
 Everything you do is saved only in your own browser. To start over, use **Settings → Reset demo data**.
